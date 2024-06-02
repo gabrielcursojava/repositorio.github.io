@@ -1,0 +1,62 @@
+.project.animate {
+    animation: moveInRight 1s ease forwards;
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Agrega esta animación a tu CSS */
+@keyframes descend {
+    from {
+        transform: translateY(-50%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+#about {
+    animation: descend 1s ease-out;
+}
+
+/* Aplica la animación a la imagen y al título */
+header img,
+header h1 {
+    animation: descend 1s ease-out;
+}
+/* Estilo para la imagen */
+
+
+/* Estilo para el título */
+header h1 {
+    font-size: 4rem; /* Tamaño de fuente del título */
+}
+/*COLOCA AZUL A LOS TITULOS y celeste al resto*/
+h1 {
+    color: rgb(7, 7, 68);
+}
+
+h2, h3, h4, h5, h6 {
+    color: rgb(11, 78, 119); /* Celeste */
+}
+
+
+/* Formulario de Contacto */
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+/* fin Formulario de Contacto */
