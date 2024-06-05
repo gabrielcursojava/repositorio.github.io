@@ -80,3 +80,6 @@ footer {
     padding-top: 12px;
   }
   
+  #alerta_nombre, #alerta_apellido, #alerta_correo, #alerta_phone, #alerta_message {
+    font-size:14px;
+  }
